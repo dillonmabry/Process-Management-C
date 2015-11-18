@@ -1,10 +1,10 @@
 # Process-Management-C
 
-	Simple menu program to demonstrate process management in C
+Simple menu program to demonstrate process management in C
 
 ## Menu Program
 
-	This is a simple menu program to effectively show process management in C
+This is a simple menu program to effectively show process management in C
  
 ## How to Start
 

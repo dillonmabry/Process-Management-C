@@ -33,7 +33,7 @@ int main() {
 /* Function to print menu options */
 void menu(long ppid, long pid) {
     
-    pid = getpid();
+    	pid = getpid();
 	int choice = 0;
 	
 	printf("Choose the function to be performed by the child:\n"
@@ -49,7 +49,7 @@ void menu(long ppid, long pid) {
 		exit(0);
 	}
 	evaluateMenu(choice, pid);
-    printf("Current process ID %ld\n", pid);
+    	printf("Current process ID %ld\n", pid);
 }
 
 /* Function to evaluate the choice the user makes when 

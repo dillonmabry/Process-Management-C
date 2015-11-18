@@ -1,12 +1,12 @@
-# Process-Management-C
+## Process-Management-C
 
 Simple menu program to demonstrate process management in C
 
-## Menu Program
+### Menu Program
 
 This is a simple menu program to effectively show process management in C
  
-## How to Start
+### How to Start
 
 - Run the program
 - Enter user input to whatever process you wish to execute (1-4 choices)
@@ -16,3 +16,8 @@ This is a simple menu program to effectively show process management in C
 ### Known Bugs & Glitches
 
 - On some systems the file display command might display different
+
+**My Links**
+
+- [My LinkedIn](http://linkedin.com/in/dillonmabry)
+- [My GitHub](https://github.com/dillonmabry/)

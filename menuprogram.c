@@ -20,15 +20,14 @@ int get_week_day(int, int, int);
 void displayFiles();
 
 int main() {
-	
-	long ppid = getppid();
+
+    long ppid = getppid();
     long pid = getpid();
     printf("\nParent Process ID: %ld, Parent's parent process ID: %ld \n",pid,ppid);
 	while(getppid() == ppid){
 		menu(ppid, pid);
 	}
-	
-   return 0;
+    return 0;
 }
 
 /* Function to print menu options */

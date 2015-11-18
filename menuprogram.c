@@ -91,13 +91,13 @@ int evaluateMenu(int choice, long pid){
 }
 
 /* Function to display the current date and time
-in standard GMT Zulu time format */
+in US Eastern Standard Time (GMT -5) format */
 void displayTime() {
-    // setenv("TZ", "EST6EDT", 1);
+    setenv("TZ", "EST5EDT", 1);
 	long current, time();
 	char *ctime();
 	time(&current);
-	printf("Current Zulu time: %s\n", ctime (&current));
+	printf("Current time: %s\n", ctime (&current));
 }
 
 

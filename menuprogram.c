@@ -175,7 +175,6 @@ void displayCalendar() {
     
     /* print new lines for each week including days */
     for (dayOfWeek = 0; dayOfWeek < startingDay; ++dayOfWeek) {
-        // printf("     ");
         printf("\n");
     }
     

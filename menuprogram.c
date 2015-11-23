@@ -4,13 +4,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-
 void menu(long, long);
 int evaluateMenu(int, long);
-void displayTime();
-void displayCalendar();
-int get_week_day(int, int, int);
-void displayFiles();
 
 int main() {
 	

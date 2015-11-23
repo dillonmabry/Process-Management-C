@@ -4,7 +4,7 @@ Simple menu program to demonstrate process management in C
 
 ### Menu Program
 
-This is a simple menu program to effectively show process management in C
+This is a simple menu program to effectively show process management in C. The menu options include displaying the current time in EST (Eastern Standard), displaying the current calendar month, as well as showing all files in the current directory including read/write permissions. The program makes use of UNIX/linux system commands so they may not work in other operating environments.
  
 ### How to Start
 
@@ -16,6 +16,7 @@ This is a simple menu program to effectively show process management in C
 ### Known Bugs & Glitches
 
 - On some systems the file display command might display different
+- Some system commands might not work on certain operating systems (UNIX based only to be used)
 
 **My Links**
 

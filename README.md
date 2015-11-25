@@ -10,6 +10,9 @@ This is a simple menu program to effectively show process management in C. The m
 
 - Run the program
 - Enter user input to whatever process you wish to execute (1-4 choices)
+- Press 1 to display the current EST time and date
+- Press 2 to display the current calendar month
+- Press 3 to display the files in the current directory with read/write permissions
 - Program will display process IDs and parent IDs
 - Press 4 to exit program
 
